@@ -50,13 +50,14 @@ library(ggrepel)
 library(randomForest)
 library(psych)
 library(xgboost)
+
 ```
 
 Below, I am reading the csv's as dataframes into R.
 
 ```{r}
-train <- read.csv("../input/train.csv", stringsAsFactors = F)
-test <- read.csv("../input/test.csv", stringsAsFactors = F)
+train <- read.csv("../project/train.csv", stringsAsFactors = F)
+# test <- read.csv("../input/test.csv", stringsAsFactors = F)
 ```
 
 ##Data size and structure
